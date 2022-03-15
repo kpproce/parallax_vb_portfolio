@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax1 { background-image: url('images/portfolioAhmad_BG1.png');}
+.parallax2 { background-image: url('images/portfolioAhmad_BG2.png')}
+.parallax3 { background-image: url('images/portfolioAhmad_BG3.png')}
+.parallax4 { background-image: url('images/portfolioAhmad_BG4.png')}
+
+
+.parallax {
+   /* Full height */
+  width: 100%; 
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40%;
+}
+
+.vastBovenin {
+    position: fixed;
+    width: 100%;
+    border: solid 2px red;
+    text-align: center;
+    background-color: rgba(255, 240, 252, 0.7);
+}
+
+.tekstBlok {
+    width: 50vw;
+    min-height: 50%;
+    background-color: rgba(185, 223, 228, 0.6);
+    padding-top: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.zeerGroot { font-size: 5vw }
+.tekstLinks { text-align: left }
+.tekstRechts { text-align: right }
+
+</style>
+</head>
+<body>
+
+<div class='vastBovenin'>
+    <h2>Portfolio van XX (4 achergronden)</h2>
+</div>
+
+<div class="tekstLinks zeerGroot parallax parallax1">
+    Mijn verhaal
+</div>
+<div class="tekstRechts zeerGroot parallax parallax2">
+    Mijn achtergronden
+</div>
+<div class="tekstLinks zeerGroot parallax parallax3">
+    <div class="tekstBlok">
+        Waar ik goed in ben
+    </div>
+</div>
+<div class="tekstRechts zeerGroot parallax parallax4">
+    De talen die ik spreek
+</div>
+
+</body>
+</html>
